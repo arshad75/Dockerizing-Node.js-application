@@ -4,7 +4,7 @@ var app = express()
 
 //Define request response in root URL (/)
 app.get('/', function (req, res) {
-  res.send('Welcome to the Docker Event @ Loves Cloud - We hope that you learn some good stuff today!')
+  res.send('Welcome to the Docker Event @ Loves Cloud!')
 })
 
 //Launch listening server on port 8081
